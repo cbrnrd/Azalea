@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/goodazaleabackground"
+    android:animateLayoutChanges="false"
+android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vendors"
+        android:id="@+id/vendorsTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentEnd="false"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textSize="40dp"/>
+</RelativeLayout>
+<!-- the parent for the fragments is the Relative Layout in the fragment -->
